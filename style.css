@@ -9,6 +9,7 @@ body{
 
 
 }
+
 #calc{
     font-family: Arial, sans-serif;
     background-color: hsl(0, 0%, 21%);
@@ -65,4 +66,3 @@ button:hover{
 .operator-btn:active{
     background-color: hsl(35, 100%, 75%);
 }
-

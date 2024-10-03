@@ -1,5 +1,6 @@
 body{
     margin: 0%;
+    /* padding-left: 10px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,17 +12,26 @@ body{
 }
 
 #calc{
-    font-family: Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Trebuchet MS', 'Lucida Sans Unicode', ;
+    font-size: 2rem;    
     background-color: hsl(0, 0%, 21%);
     border-radius: 15px;
     max-width: 500px;
     overflow: hidden;
+    margin-bottom: 10px;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    padding-left: 39px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+   
+
+
 }
 
 #display{
-    width: 100vh;
+    width: 417px;
     padding: 20px;
-    font-size: 5rem;
+    font-size: 2rem;
     text-align: left;
     border: none;
     background-color: hsl(0, 0%, 25%);
@@ -34,6 +44,7 @@ body{
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     padding: 27px;
+    padding-left: 39px;
 
 }
 
@@ -51,10 +62,10 @@ button{
 }
 
 button:hover{
-    background-color: hsl(0, 0%, 40%);
+    background-color: hsl(35, 100%, 55%);
 }
  button:active{
-    background-color: hsl(0, 0%, 50%);
+    background-color: hsl(35, 100%, 50%);
 }
 
 .operator-btn{
